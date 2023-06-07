@@ -28,4 +28,4 @@
 
         msg: "The hostname is {{ ansible_net_hostname }} and the OS is {{ ansible_net_version }}"
 
-        #msg: "{{hostvars[inventory_hostname]}}"
+        msg: "{{hostvars[inventory_hostname]}}"
