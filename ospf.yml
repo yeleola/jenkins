@@ -32,7 +32,7 @@
 
         parents: router ospf 2
 
- hosts: R1
+- hosts: R1
 
   gather_facts: false
 
@@ -54,7 +54,7 @@
 
         parents: int e1/0
 
- hosts: R1
+- hosts: R1
 
   gather_facts: false
 
