@@ -76,9 +76,9 @@
 
         parents: int e1/0
 
-- name: configure int s2/0 interface
+    - name: configure int s2/0 interface
 
-  ios_config:
+      ios_config:
 
         lines:
 
