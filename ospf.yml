@@ -78,7 +78,7 @@
 
 - name: configure int s2/0 interface
 
-      ios_config:
+  ios_config:
 
         lines:
 
