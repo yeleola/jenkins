@@ -48,13 +48,13 @@
 
         lines:
 
-           - ip add 192.168.2.1 255.255.255.0
+           - ip add 192.168.3.1 255.255.255.0
 
            - no shutdown
 
         parents: int e1/0
 
-- hosts: R1
+- hosts: R2
 
   gather_facts: false
 
@@ -70,7 +70,7 @@
 
         lines:
 
-           - ip add 192.168.2.1 255.255.255.0
+           - ip add 192.168.4.1 255.255.255.0
 
            - no shutdown
 
@@ -82,7 +82,7 @@
 
         lines:
 
-           - ip add 10.10.10.1 255.255.255.252
+           - ip add 20.20.20.1 255.255.255.252
 
            - no shutdown
 
